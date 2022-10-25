@@ -6,3 +6,5 @@ This repository includes revisited priaml simplex algorithm, revisited dual simp
 **rdsa** is an implementation of the revisited dual simplex algorithm, test examples are including in the file **test_rdsa**
 
 **ipdipm** is an implementation of the Mehrotra's predictor-corrector algorithm, test examples are including in the file **test_ipdipm**
+
+**ftpsa** is an implementation of the full tableau primal simplex algorithm, test examples are including in the file **test_ftpsa**
