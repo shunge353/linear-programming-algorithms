@@ -180,10 +180,10 @@ if flag == 0
             if length(rr) > 1
                 r = mrt(rr);
                 k = BasicList(r); % index of the leaving variable
-                k = max(k);
+                k = min(k);
                 r = find(BasicList == k);
             else
-                r = mrt(r);
+                r = mrt(rr);
                 k = BasicList(r); % index of the leaving variable
             end
             % update basic and nonbasic list
@@ -266,10 +266,10 @@ if flag == 1
                 if length(rr) > 1
                     r = mrt(rr);
                     k = BasicList(r); % index of the leaving variable
-                    k = max(k);
+                    k = min(k);
                     r = find(BasicList == k);
                 else
-                    r = mrt(r);
+                    r = mrt(rr);
                     k = BasicList(r); % index of the leaving variable
                 end
                 % update basic and nonbasic list
