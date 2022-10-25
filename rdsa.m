@@ -237,10 +237,10 @@ if flag == 0
             if length(rr) > 1
                 r = max(rr);
                 k = BasicList(r);
-                k = max(k);
+                k = min(k);
                 r = find(BasicList == k);
             else
-                r = mrt(r);
+                r = mrt(rr);
                 k = BasicList(r);
             end
         else
@@ -253,7 +253,7 @@ if flag == 0
             if length(rr) > 1
                 r = mrt(rr);
                 k = BasicList(r);
-                k = max(k);
+                k = min(k);
                 r = find(BasicList == k);
             else
                 r = mrt(rr);
@@ -349,10 +349,10 @@ if flag == 1
     if length(rr) > 1
         r = mrt(rr);
         k = BasicList(r);
-        k = max(k);
+        k = min(k);
         r = find(BasicList == k);
     else
-        r = mrt(r);
+        r = mrt(rr);
         k = BasicList(r);
     end
     
