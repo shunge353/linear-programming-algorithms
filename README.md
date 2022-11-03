@@ -10,3 +10,5 @@ This repository includes revisited priaml simplex algorithm, revisited dual simp
 **ftpsa** is an implementation of the full tableau primal simplex algorithm, test examples are including in the file **test_ftpsa**
 
 **bigMpsa** is an implementation of the full tableau primal simplex algorithm, test examples are including in the file **test_bigMpsa**
+
+**ftdsa** is an implementation of the full tableau dual simplex algorithm, test examples are including in the file **test_ftdsa**
